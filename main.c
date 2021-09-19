@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main(){
-    print01();
     return 0;
 }
 
