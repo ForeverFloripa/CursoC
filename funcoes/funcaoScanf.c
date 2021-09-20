@@ -23,6 +23,5 @@ int calculaArea(void)
     area = base * altura;
 
     //printf("a area e' = %i", area);
-
     return area;
 }
