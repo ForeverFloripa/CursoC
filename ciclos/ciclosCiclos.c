@@ -8,9 +8,10 @@ for (int i = 0; i < 10; i++)
     {
         printf("Ponto %i\n",j);
     }
+    printf("\n");
     
 
 
 }
-
+return 0;
 }
