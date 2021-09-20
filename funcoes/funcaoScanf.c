@@ -2,6 +2,15 @@
 
 int main()
 {
+
+    int calculaArea(void);
+    int ar = calculaArea();
+    printf("a area e'%i: ", ar);
+    return 0;
+}
+
+int calculaArea(void)
+{
     int base;
     int altura;
     int area;
@@ -13,7 +22,7 @@ int main()
 
     area = base * altura;
 
-    printf("a area e' = %i", area);
+    //printf("a area e' = %i", area);
 
-    return 0;
+    return area;
 }
