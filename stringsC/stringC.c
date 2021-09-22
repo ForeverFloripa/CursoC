@@ -1,7 +1,7 @@
 #include <stdio.h>
 //#include <string.h>
 
-int main(int argc, char const *argv[])
+int main(void)
 {
     /* conceito */
     char teste[] = {'a', 'n', 'd', 'r', 'e'};
@@ -32,8 +32,18 @@ int main(int argc, char const *argv[])
     return 0;
 }
 
-void concatenarStrings(char string1[], int t1, char string2[], int t2,char string3[]);
+void concatenarStrings(char string1[], int t1, char string2[], int t2,char string3[])
 {
+        int i,j;
+    for ( i = 0; i < t1; i++)
+    {
+        string3[i]=string1[i];
+    }
+    for ( j = 0; j < t2; j++)
+    {
+        string3[j+t1]=string2[j];
+    }
+    
 
 
 }
