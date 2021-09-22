@@ -21,7 +21,6 @@ int main(void)
     
     concatenarStrings(palavra1,8,palavra2,7,novaPalavra);
 
-    int i;
 
     for (i = 0; i < 15; i++)
     {
